@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: #5900ac;
+    /* background color de gradiente: */
+    background-image: linear-gradient(180deg, #5900ac 0%, #5900ac 80%, #000000 100%);
     color: #fff;
 }
 
