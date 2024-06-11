@@ -1,27 +1,53 @@
+/* primeira seção  */
 .secao-intro {
-    height: calc(100vh - 80px);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding: 40px;
-    gap: 20px;
-  }
+  background-color: #5900ac;
+  height: calc(100vh);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
 
+.imagem-gato img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
   
-  .imagem-gato img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
+.conteudo-texto {
+  padding: 0 20px;
+}
   
-  .conteudo-texto {
-    padding: 0 20px;
-  }
-  
-  .conteudo-texto h2 {
-    font-size: 2.5rem;
-    color: #ffcc00;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
+.conteudo-texto h2 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* segunda seção */
+
+.secao-produtos {
+  background-color: #ffcc00;
+  height: 100vh;
+  display: flex;
+}
+
+.secao-descontos {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+}
+
+.secao-endereco {
+  background-color: #ff7300;
+  height: 100vh;
+  display: flex;
+}
+
+.secao-sobre {
+  background-color: #5900ac;
+  height: 100vh;
+  display: flex;
+}
