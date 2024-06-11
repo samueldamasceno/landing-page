@@ -1,6 +1,8 @@
+@import url(./cores.css);
+
 /* primeira seção  */
 .secao-intro {
-  background-color: #5900ac;
+  background-color: var(--tom-roxo);
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,7 +19,7 @@
 
 .conteudo h2 {
   font-size: 2.5rem;
-  color: #ffcc00;
+  color: var(--tom-amarelo);
   margin-bottom: 20px;
   text-align: left;
 }
@@ -25,7 +27,7 @@
 /* segunda seção */
 
 .secao-produtos {
-  background-color: #ffcc00;
+  background-color: var(--tom-amarelo);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -33,8 +35,8 @@
 }
 
 .secao-descontos {
-  background-color: #ffffff;
-  color: black;
+  background-color: var(--tom-branco);
+  color: var(--tom-preto);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -42,7 +44,7 @@
 }
 
 .secao-endereco {
-  background-color: #ff7300;
+  background-color: var(--tom-laranja);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -51,7 +53,7 @@
 }
 
 .secao-sobre {
-  background-color: #5900ac;
+  background-color: var(--tom-roxo);
   height: 100vh;
   display: flex;
   align-items: center;
