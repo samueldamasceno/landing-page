@@ -1,7 +1,7 @@
 /* primeira seção  */
 .secao-intro {
   background-color: #5900ac;
-  height: calc(100vh);
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -14,12 +14,8 @@
   height: auto;
   border-radius: 8px;
 }
-  
-.conteudo-texto {
-  padding: 0 20px;
-}
-  
-.conteudo-texto h2 {
+
+.conteudo h2 {
   font-size: 2.5rem;
   color: #ffcc00;
   margin-bottom: 20px;
@@ -32,22 +28,31 @@
   background-color: #ffcc00;
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .secao-descontos {
   background-color: #ffffff;
+  color: black;
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .secao-endereco {
   background-color: #ff7300;
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .secao-sobre {
   background-color: #5900ac;
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
